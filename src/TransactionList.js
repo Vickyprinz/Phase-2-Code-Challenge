@@ -80,13 +80,13 @@ function TransactionsList({ transactions, setTransactions, search}) {
     <table className="ui celled striped padded table">
       <tbody>
         <tr>
-          <th style={{backgroundColor: "rgba(0, 0, 0, 0.9)", cursor: "pointer"}}>
+          <th style={{backgroundColor: "rgba(0, 0, 0, 0.10)", cursor: "pointer"}}>
             <h3 className="ui center aligned header" onClick={sortTransactionList} title="click to sort by date">Date</h3>
           </th>
-          <th style={{backgroundColor: "rgba(0, 0, 0, 0.5)", cursor: "pointer"}}>
+          <th style={{backgroundColor: "rgba(0, 0, 0, 0.10)", cursor: "pointer"}}>
             <h3 className="ui center aligned header" onClick={sortTransactionList} title="click to sort by description">Description</h3>
           </th>
-          <th style={{backgroundColor: "rgba(0, 0, 0, 0.7)", cursor: "pointer"}}>
+          <th style={{backgroundColor: "rgba(0, 0, 0, 0.10)", cursor: "pointer"}}>
             <h3 className="ui center aligned header" onClick={sortTransactionList} title="click to sort by category">Category</h3>
           </th>
           <th style={{backgroundColor: "rgba(0, 0, 0, 0.10)", cursor: "pointer"}}>
