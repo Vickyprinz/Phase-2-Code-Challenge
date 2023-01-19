@@ -13,11 +13,11 @@ function AccountContainer() {
   
    //Featch all transaction from server
   useEffect(() => {
-    fetch("http://localhost:3000/transactions")
+    fetch("https://vickyprinz.github.io/db/db.json")
       .then((r) => r.json())
-      .then((data) => setTransactions(data)) //Setter activity for transaction after server response, this is the data in state when the app first loads
+      .then((data) => setTransactions(data.transactions)) //Setter activity for transaction after server response, this is the data in state when the app first loads
   }, [])
-
+  // .then((data) => setTransactions(data.transactions)
   //Re-renders page with updated state after creating a new transaction, use this when trying to re render with updated data
   function updatedTransactions(newTransactions) {
    const updatedTransactionsArray = [...transactions, newTransactions]

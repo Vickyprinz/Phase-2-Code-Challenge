@@ -10,7 +10,7 @@ function TransactionsList({ transactions, setTransactions, search}) {
   })
   let transactionList;
 
-  if(transactions){
+  if(transactions && Array.isArray(transactions)){
     const filteredTransactions = transactions.filter(transaction => {
       return (
         transaction.description.toLowerCase().includes(search.toLowerCase()) || transaction.category.toLowerCase().includes(search.toLowerCase())

@@ -2,7 +2,7 @@ import React from "react";
 
 function Transaction({id, date, description, category, amount}) {
   function handleDelete(event){
-    fetch(`http://localhost:3000/transactions/${id}`, {
+    fetch(`https://vickyprinz.github.io/db/db.json/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
