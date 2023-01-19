@@ -13,7 +13,7 @@ function AccountContainer() {
   
    //Featch all transaction from server
   useEffect(() => {
-    fetch("https://vickyprinz.github.io/db/db.json")
+    fetch("https://vickyprinz.github.io/db.json")
       .then((r) => r.json())
       .then((data) => setTransactions(data.transactions)) //Setter activity for transaction after server response, this is the data in state when the app first loads
   }, [])

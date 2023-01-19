@@ -18,7 +18,7 @@ function AddTransactionForm({newData}) {
         alert("Please fill in all inputs")
       }else if(!formInput.isInvalid){
         // persist transaction on server after validations
-        fetch("https://vickyprinz.github.io/db/db.json", {
+        fetch("https://vickyprinz.github.io/db.json", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
