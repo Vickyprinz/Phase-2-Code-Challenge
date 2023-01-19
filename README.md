@@ -26,7 +26,7 @@ Get the json file from from [db.json](https://docs.google.com/document/d/1EWN0qL
 
       code .
 # To run the program
-## Click on the link [Bank-of-Flatiron]()
+## Click on the link [Bank-of-Flatiron](https://sunny-queijadas-3f2e64.netlify.app/)
 
 ### Author:[Victor Kariuki](https://github.com/Vickyprinz)
 ### License: ISC
