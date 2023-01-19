@@ -16,9 +16,9 @@ function Transaction({id, date, description, category, amount}) {
 return (
   <tr>
     <td>{date}</td>
-    <td>{amount}</td>
-    <td>{category}</td>
     <td>{description}</td>
+    <td>{category}</td>
+    <td>{amount}</td>
     <td>{<button onClick={handleDelete}>Delete</button>}</td>
   </tr>
 );
